@@ -1,0 +1,198 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #ffcc00;
+  --f7-theme-color-rgb: 247, 247, 247;
+  --f7-theme-color-shade: #ebebeb;
+  --f7-theme-color-tint: #742727;
+}
+
+/* Top level styes */
+.ios-translucent-bars .toolbar {
+  background: white;
+  color: yellow;
+}
+
+.backdrop-filter {
+  background: white;
+  color: yellow;
+}
+
+.tabbar a:active, .tabbar-labels a:active {
+  color: yellow;
+}
+
+.home {
+  padding-top: 40px;
+}
+
+.home--title {
+  color: #b34545;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-brown {
+  background: brown;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.btn-yellow {
+  background: #ffcc00;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.facebook-btn {
+  background: #fff;
+  border-radius: 10px;
+  color: #2a2a8d;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+/* Login page Styles */
+.login--nav {
+  color: #ffcc00;
+}
+
+.login--form, .settings--form {
+  background: none;
+  border: none;
+}
+
+.login--form ul, .settings--form ul {
+  background: none;
+  border: none;
+}
+
+.login--form ul::before, .settings--form ul::before {
+  background: none;
+  border: none;
+}
+
+.login--form ul::after, .settings--form ul::after {
+  background: none;
+  border: none;
+}
+
+.login--form li, .settings--form li {
+  background: none;
+  border: none;
+}
+
+.login--form .item-inner, .settings--form .item-inner {
+  background: none;
+  border-bottom: 0.8px solid #ffcc00;
+}
+
+.login--form .item-inner:focus, .settings--form .item-inner:focus {
+  background: none;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.login--form .item-inner::after, .settings--form .item-inner::after {
+  background: none;
+  border: none;
+}
+
+.login--nav .back {
+  color: #ffcc00;
+  padding-left: 2px;
+}
+
+.login--forgot {
+  color: #ffcc00;
+  font-weight: bold;
+  text-align: right;
+}
+
+.login--register {
+  color: #31312f;
+  text-align: center;
+}
+
+.login--register-link {
+  color: #ffcc00;
+  text-align: center;
+}
+
+/* Meals Page Styling */
+.meal--title {
+  color: #ffcc00;
+}
+
+.meal__list ul {
+  background: none;
+  margin-top: -20px;
+}
+
+.meal--list-item {
+  background: #fff;
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+
+.meal--list-item .item-header {
+  margin-bottom: 10px;
+}
+
+.meal--list-item .item-footer {
+  margin-top: 15px;
+}
+
+.meal--list-item .item-content::after {
+  font-family: "Framework7 Icons";
+  content: "bookmark_fill";
+  color: forestgreen;
+  position: relative;
+  right: 10px;
+  top: 30px;
+  z-index: 10;
+}
+
+.meal--list-item .item-inner:after {
+  background: none;
+}
+
+.meal--list-item .badge {
+  border-radius: 4px;
+  position: relative;
+  right: -20px;
+  top: -28px;
+}
+
+.meal--back-icon {
+  color: #ffcc00;
+}
+
+/* Settings Styling */
+.settings__tab a.tab-link-active {
+  border-bottom: 2px solid #ffcc00;
+}
+
+.page-content {
+  padding: 40px 0px 40px 0px;
+  margin-left: 0;
+  margin-right: 0px;
+}
+/*# sourceMappingURL=app.css.map */
